@@ -42,7 +42,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals/
 
 ==========
 6. Type:
@@ -53,7 +53,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+food/
 
 ==========
 7. Type:
@@ -64,6 +64,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
+animals/  foo/  food/
 
 
 ==========
@@ -75,6 +76,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
+/c/Users/Alex/mtec1003/foo/bar/baz/qux
 
 
 ==========
@@ -86,6 +88,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
+/c/Users/Alex/mtec1003/foo/bar
 
 
 ==========
@@ -97,6 +100,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
+/c/Users/Alex/mtec1003/foo/bar/baz/qux
 
  
 ==========
@@ -108,6 +112,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
+/c/Users/Alex/mtec1003
 
 
 ==========
@@ -120,6 +125,7 @@ $ ls -l
 Copy and paste the first two lines from the output into the space below.
 ----------
 
+drwxr-xr-x 1 Alex 197121 0 Dec 26 17:50 foo/
 
 
 ==========
@@ -131,6 +137,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
+/c/Users/Alex
 
 
 ==========
@@ -142,6 +149,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
+bash: cd: /Volumes: No such file or directory
 
 
 ==========
@@ -153,6 +161,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
+/c/Users/Alex
 
 
 ==========
@@ -164,6 +173,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
+/c/Users/Alex/mtec1003
 
 
 ==========
@@ -193,7 +203,7 @@ lemon
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
 
-
+$ mkdir -p pineapple then orange, strawberry then lastly lemon 
 
 ==========
 18. Make another directory called aardvark.  
@@ -201,7 +211,7 @@ Use only one command to make all of these new directories.  Write what command y
 Write the command you used to create the directory below:
 ----------
 
-
+$ mkdir aardvark
 
 ==========
 19. List the files and directories in the current directory using the long format.  
@@ -209,6 +219,11 @@ Write the command you used to create the directory below:
 What is the modified date of the aardvark directory?
 ----------
 
+drwxr-xr-x 1 Alex 197121 0 Dec 26 17:50 food/
+drwxr-xr-x 1 Alex 197121 0 Dec 26 17:54 lemon/
+drwxr-xr-x 1 Alex 197121 0 Dec 26 17:54 orange/
+drwxr-xr-x 1 Alex 197121 0 Dec 26 17:54 pineapple/
+drwxr-xr-x 1 Alex 197121 0 Dec 26 17:54 strawberry/
 
 
 ==========
@@ -221,6 +236,7 @@ What is the modified date of the aardvark directory?
 What command did you use?
 ----------
 
+$ mkdir -p foo/bar/baz/
 
 
 ==========
@@ -229,6 +245,7 @@ What command did you use?
 What command did you use?
 ----------
 
+cd foo/bar/baz
 
 
 ==========
@@ -236,44 +253,49 @@ What command did you use?
 
 What command did you use?
 ----------
+cd foo
 
 
 ==========
 23. What command is used to delete empty directories?
 ----------
 
+rmdir
 
 
 ==========
 24. What command is used to print out your current working directory?
 ----------
 
-
+pwd
 
 ==========
 25. What flag do I pass to ls to print out all files?
 ----------
 
-
+-a
 
 ==========
 26. What's the shortcut for home directory?
 ----------
 
-
+cd
 
 ==========
 27. What's a pathname?
 ----------
 
+line of characters used to uniquely identify a location in a directory structure. Something like Q20
 
 
 ==========
 28. What's a directory?
 ----------
 
+file
 
 
 ==========
 29. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+Alex@DESKTOP-U0Q0JFC MINGW64 ~
